@@ -1,0 +1,10 @@
+.calender_enter {
+background-color: #eee;
+}
+body,html{
+width:100%;
+dispaly:grid;
+}
+.page-center{
+margin-auto;
+}

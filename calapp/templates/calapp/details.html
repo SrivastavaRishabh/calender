@@ -1,0 +1,15 @@
+{% extends 'calapp/base.html' %}
+{% block content %}
+<hr>
+<div class="container jumbotron">
+    <p>
+        <button onclick="window.location='{% url 'index' %}'" class="btn btn-default">GoBack</button>
+    </p>
+
+         <h1>{{ entry.name }}</h1>
+          <h3>{{ entry.date }} </h3>
+         <h2> {{ entry.description }} </h2>
+
+
+</div>
+{% endblock %}
